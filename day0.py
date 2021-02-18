@@ -1,0 +1,3 @@
+#INTRODUCTION TO PYTHON DAY0
+
+print("Hello World")
