@@ -65,6 +65,13 @@ print(var_len)      #same usage with above
 
 print(len("Python"))
 
+
 ##F-STRING
 
 var_string2 = "Portugal"
+#print("Obrigado" var_string2)
+
+data5 = 50
+data6 = 60 
+print("My first data: " + str(data5) + "second is:" + str(data6))
+
