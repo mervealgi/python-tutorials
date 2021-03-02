@@ -33,6 +33,13 @@ print(type(var_string))  #print data types with its class
 var_float = 3.18
 print(type(var_float))  #if . -> , type would be TUPLE
 
+var1 = 5
+var2 = 5.0
+
+print(var1+var2)
+print(type(var1+var2))
+
+
 #BOOLEAN
 
 var_boolean1 , var_boolean2 = True , False
