@@ -79,3 +79,11 @@ print(listception[-1]) #output will be the last item : [5, 65, 7, 8, 9]
 listception.insert(4,"fourfor")
 print(listception)
 
+
+###RANGE
+
+list_range = list(range(0,15,2))
+print(list_range) #output will be [0, 2, 4, 6, 8, 10, 12, 14]
+
+print(6 in list_range) #True
+
