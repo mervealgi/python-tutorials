@@ -18,16 +18,33 @@ print(a == b) #will be False, bcs re not equal
 
 array1 = "PYTHON"
 
-print(array1[0])
-print(array1[3]) 
+print(array1[0]) #P
+print(array1[3]) #H
 
-print(array1[-1])
-print(array1[-4])
+print(array1[-1]) #N
+print(array1[-4]) #T
+
+print(array1[:]) #will print all #PYTHON
 
 print(array1[0:6]) #will print from 0 to 5th but not 6th
-print(array1[1:3])
+print(array1[1:3]) #YT
 
 print(array1[0:]) #from 0 to all 
-print(array1[4:])
+print(array1[4:]) #ON
 
+print(array1[:3]) #from begin to 3th but not 3th #PYT
+print(array1[:6]) #PYTHON
+
+print(array1[::-1]) #NOHTYP
+
+city = "Porto"
+print(city[0:5:1]) #start:end:step #Porto
+print(city[1:5:2]) # o t
+print(city[0:5:2]) #P r o
+
+print("t" in city) #will be True
+print("p" in city) #will be False bcs we have upper P
+
+print("or" in city) #will be True 
+print("po" in city) #will be False bcs we have upper Po
 
