@@ -48,3 +48,20 @@ print("p" in city) #will be False bcs we have upper P
 print("or" in city) #will be True 
 print("po" in city) #will be False bcs we have upper Po
 
+ai = "artificial" + " " + "intelligence"
+print(ai)
+
+###LETTERS 
+
+word1 = "machine learning"
+print(word1.capitalize()) #Machine learning
+
+print(word1.upper()) #MACHINE LEARNING
+
+print(word1.replace("machine","deep")) #deep learning
+
+print(word1.strip()) #????????????
+
+
+
+
