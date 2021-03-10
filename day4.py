@@ -53,7 +53,7 @@ list1 = [1,2,3,4,5,6,7]
 
 i = 0
 while (i < len(list1)):
-    print(i, "th item: ", t[list1]])
+    print(i, "th item: ", list1[i])
     i += 1
 
 ###
@@ -70,4 +70,9 @@ list1 = [1,2,3,4,5,6,7]
 for i in list1:
     print(i)
 
+
+list2 = list(range(8))
+print(list2)
+squares = [i**2 for i in list2]
+print(squares)
 
