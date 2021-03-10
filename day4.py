@@ -47,5 +47,27 @@ while number < 9:
     number = number +1   #infinite loop
 
 
+### WHILE IN LISTS
+
+list1 = [1,2,3,4,5,6,7]
+
+i = 0
+while (i < len(list1)):
+    print(i, "th item: ", t[list1]])
+    i += 1
+
+###
+
+while True:
+    a = input("Enter a value: ")
+    if a == "Exit":
+        break
+
+
+### FOR
+
+list1 = [1,2,3,4,5,6,7]
+for i in list1:
+    print(i)
 
 
