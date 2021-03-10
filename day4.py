@@ -1,6 +1,6 @@
 #INTRODUCTION TO PYTHON DAY4
 
-###IF ELSE
+###IF ELSE #????? USE input INSTEAD OF raw_input
 
 ###
 country = "Portugal"
@@ -12,13 +12,13 @@ else:
     print("Dont exist!")
 
 ###
-num = int(input("Please enter a number:"))
+num = int(raw_input("Please enter a number:"))
 if num < 0:
     num *= -1 
 print("Result: ",num)
 
 ###
-score = int(input("Please enter yout score: "))
+score = int(raw_input("Please enter yout score: "))
 
 if score <= 50:
     print("Not pass, try again")
@@ -29,8 +29,8 @@ elif score <= 100:
 
 
 ###
-mid_exam = int(input("Please enter your mid exam result: "))
-fin_exam = int(input("Please enter your finale exam result: "))
+mid_exam = int(raw_input("Please enter your mid exam result: "))
+fin_exam = int(raw_input("Please enter your finale exam result: "))
 
 if(mid_exam <= 50 and fin_exam <= 50):
     print("You ve failed :(")
@@ -59,7 +59,7 @@ while (i < len(list1)):
 ###
 
 while True:
-    a = input("Enter a value: ")
+    a = raw_input("Enter a value: ")
     if a == "Exit":
         break
 
@@ -70,9 +70,21 @@ list1 = [1,2,3,4,5,6,7]
 for i in list1:
     print(i)
 
-
+###
 list2 = list(range(8))
 print(list2)
 squares = [i**2 for i in list2]
 print(squares)
 
+###
+mylist = [1,2,3,4,5,6]
+print(mylist[0])
+
+max_num = mylist[0]
+
+for i in mylist:
+    if i > max_num:
+        max_num = i
+        print("Max num is: ", max_num)
+        print("i: ",i)
+    print(max_num)
